@@ -1,3 +1,3 @@
 # miniapp-docs
 
-This repo contains some auxiliary documents related to [MiniApp](https://github.com/w3c/miniapp/).
+This repo contains some auxiliary documents related to [MiniApps](https://github.com/w3c/miniapp/).
