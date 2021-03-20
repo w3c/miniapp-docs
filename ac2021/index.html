@@ -11,6 +11,15 @@
   <script src="https://www.w3.org/2021/Talks/ac-slides/Templates/iframe-fixup.js"></script>
   <!-- To use the b6+ framework, remove the two scripts above and use this: -->
   <!-- <script src="https://www.w3.org/2021/Talks/ac-slides/Templates/b6plus.js"></script> -->
+
+  <style>
+    .slide {
+      background: hsl(0,0%,100%);
+    }
+    .small {
+      font-size: 40%;
+    }
+  </style>
  </head>
  <body class="shower fade-in">
 
@@ -46,27 +55,56 @@
    </section>
 
 
-  <section class="slide" id="bigside2" aria-label="slide">
+  <section class="slide" id="cg-overview" aria-label="slide">
     <h2>MiniApps CG Work Overview</h2>
-<div style='float: right; font-size: 50%'>
-  <p>MiniApp specs:</p>
-<ul>
-<li>MiniApp URI Scheme</li>
-<li>MiniApp Packaging*</li>
-<li>MiniApp Manifest*</li>
-<li>MiniApp Widget Requirements</li>
-<li>MiniApp Lifecycle*</li>
-</ul>
-<p>(* transferred to WG as normative)></p>
-</div>
-    <img class="side" style='width:70%'
-   src="diagram1.png"
+    <img src="diagram1.png"
    alt="[Top view of four pairs of hand holding each other crosswise]" />
-
+  <table class="tg striped" style="font-size: 40%;">
+    <thead>
+      <tr>
+        <th class="tg-0pky">#</th>
+        <th class="tg-0pky">MiniApp Specs (incubated in CG)</th>
+        <th class="tg-0lax">Transferred to WG</th>
+        <th class="tg-0lax">TAG Reviewed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0pky">1</td>
+        <td class="tg-0pky">MiniApp URI Scheme</td>
+        <td class="tg-0lax">Note</td>
+        <td class="tg-0lax">Y</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">2</td>
+        <td class="tg-0pky">MiniApp Packaging</td>
+        <td class="tg-0lax">Normative</td>
+        <td class="tg-0lax">informally</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">3</td>
+        <td class="tg-0pky">MiniApp Manifest</td>
+        <td class="tg-0lax">Normative</td>
+        <td class="tg-0lax">Y</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">4</td>
+        <td class="tg-0pky">MiniApp Widget Requirements</td>
+        <td class="tg-0lax">Note</td>
+        <td class="tg-0lax">N</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">5</td>
+        <td class="tg-0pky">MiniApp Lifecycle</td>
+        <td class="tg-0lax">Normative</td>
+        <td class="tg-0lax">Y</td>
+      </tr>
+    </tbody>
+    </table>
    </section>
 
   <section class="slide">
-    <h2>MiniApp Packaging & Manifest</h2>
+    <h2 style="font-size: 1.6em;">MiniApp Packaging & Manifest <span class="small">(Normative)</span></h2>
 
     <img class="side"
     src="diagram2.png"
@@ -75,7 +113,7 @@
   </section>
 
   <section class="slide">
-    <h2>MiniApp Lifecycle</h2>
+    <h2>MiniApp Lifecycle <span class="small">(Normative)</span></h2>
 
   <img class="side"
     src="diagram3.png" style='height: 50%; display: block; margin: auto'
@@ -91,7 +129,7 @@
   </section>
 
   <section class="slide">
-    <h2>MiniApp Addressing</h2>
+    <h2>MiniApp Addressing <span class="small">(WG Note)</span></h2>
     <img class="side"
     src="diagram4.png"
     alt="[Top view of four pairs of hand holding each other crosswise]" />
