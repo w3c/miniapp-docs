@@ -16,8 +16,19 @@
     .slide {
       background: hsl(0,0%,100%);
     }
-    .small {
+    h2.small {
       font-size: 40%;
+    }
+    .slide ul.small,
+    .slide p.small,
+    .slide li.small,
+    .slide li ul.small,
+    .slide li li.small {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .slide li li.small {
+      font-size: 0.9em;
     }
   </style>
  </head>
@@ -50,15 +61,60 @@
     <ul>
      <li>MiniApps is a <strong>successful</strong> mean to deploy apps to the public</li>
      <li>It is possible to deploy MiniApps based on the Web Platform</li>
-     <!-- <li>MiniApps WG is the place to make easy deployable Web apps a reality</li> -->
     </ul>
    </section>
 
+   <section class="slide" id="background" aria-label="slide">
+    <h2>Some Background</h2>
+    <ul>
+      <li>MiniApp: a new form of hybrid application, leveraging both Web technologies (especially CSS and JavaScript) as well as capabilities of native applications. Originated from China in early 2017.</li>
+      <li>It runs within a user agent such as native app, Web browser, or  operating system.</li>
+      <li>The beauty of MiniApps:
+        <ul>
+      <li>For users: install-free, handy to use, friendly UI and rich functionalities, support offline use</li>
+      <li>For developers: new playground for innovation, leverage the functionality modules of Hosting App/OS, less costs</li>
+    </ul>
+    </li>
+    </ul>
+   </section>
+
+   <section class="slide" id="globe" aria-label="slide">
+    <h2 style="font-size: 1.6em;">MiniApps in the Globe </h2>
+    <ul class="small">
+      <li class="small">In China:
+        <ul class="small">
+<li class="small">Transforming the business model and the market</li>
+<li class="small">Industry application: retail, take-out service, health care, e-gov, online education, transportation, etc</li>
+<li class="small">About 20 MiniApps platforms (Alipay, Baidu, Huawei, Xiaomi, etc), 7.5 million MiniApps, 850 million users, still growing</li></ul></li> 
+<li class="small">In Asia: Miniapps start to get known in Japan and Korea, e.g. Line released its MiniApp products in 2019
+  <ul class="small"><li class="small">
+CJK MiniApp online forum on April 8th</li></ul></li>
+<li class="small">In the globe, MiniApp-like products emerge in some platforms, e.g. app stores</li>
+    </ul>
+    <p class="small">
+      Will the walled garden happen again among MiniApp ecosystems?
+    </p>
+   </section>
+
+   <section class="slide" id="goals-wg" aria-label="slide">
+    <h2>MiniApps Standardization in W3C</h2>
+    <p>
+      History of MiniApp Standardization in W3C
+    </p>
+    <img src="history.png" alt="Early 2019, AB Discussion in Next Big Things -> May 2019, Workshop in Beijing -> May 2019 AC Meeting Discussion -> Sep 2019, MiniApps Standardization White Paper published -> Sep 2019, TPAC Breakout Session and MiniApp CG launched -> July 2020, MiniApp online Workshop, Discussion with TAG ->Dec 2020, AC vote for proposed MiniApps WG Charter -> Jan 2021, MiniApps WG launched">
+    <p>Goals of MiniApps WG</p>
+    <ul>
+<li>harmonize the heterogeneous MiniApp ecosystem,</li>
+<li>enable interoperability among the different MiniApp platforms,</li>
+<li>maximize the convergence of MiniApps and the World Wide Web,</li>
+<li>reduce the development costs and facilitating the adoption of this technology.</li>
+    </ul>
+   </section>
 
   <section class="slide" id="cg-overview" aria-label="slide">
     <h2>MiniApps CG Work Overview</h2>
     <img src="diagram1.png"
-   alt="[Top view of four pairs of hand holding each other crosswise]" />
+   alt="MiniApps CG Work Overview" />
   <table class="tg striped" style="font-size: 40%;">
     <thead>
       <tr>
@@ -108,7 +164,7 @@
 
     <img class="side"
     src="diagram2.png"
-    alt="[Top view of four pairs of hand holding each other crosswise]" />
+    alt="MiniApp Packaging & Manifest " />
 
   </section>
 
@@ -117,7 +173,7 @@
 
   <img class="side"
     src="diagram3.png" style='height: 50%; display: block; margin: auto'
-    alt="[Top view of four pairs of hand holding each other crosswise]" />
+    alt="MiniApp Lifecycle" />
 
   <div>
     <p>To Do:</p>
@@ -132,10 +188,10 @@
     <h2>MiniApp Addressing <span class="small">(WG Note)</span></h2>
     <img class="side"
     src="diagram4.png"
-    alt="[Top view of four pairs of hand holding each other crosswise]" />
+    alt="MiniApp Addressing" />
 
   </section>
-   <section class="slide" id="incremental" aria-label="slide">
+   <section class="slide" id="tag" aria-label="slide">
     <h2>TAG Review</h2>
     <p>The TAG reviewed the following points</p>
     <ul>
@@ -145,6 +201,16 @@
     </ul>
    <p class="next">And informally about MiniApp Packaging</p>
    <p class="next">Then Team effort to build on TAG's feedback.</p>
+   </section>
+
+   <section class="slide" id="conclusion" aria-label="slide">
+    <h2>To Sum Up</h2>
+    <ul>
+<li>MiniApp standardization explores the interoperability between Web and new forms of applications.</li>
+<li>It is a global effort.</li>
+<li>We incubate the new ideas in MiniApp Ecosystem Community Group and standardize them in MiniApps Working Group.</li>
+<li>Welcome to join!</li>
+    </ul>
    </section>
 
   </body>
